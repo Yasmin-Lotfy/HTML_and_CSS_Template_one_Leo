@@ -71,6 +71,14 @@ html {
 
 }
 /*End Variables */
+.header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 50;
+    margin: 0 auto;
+    background-color: var(--main-background);
+}
 /* Start Header */
 .header .container{
     padding-top:10px;
@@ -78,6 +86,8 @@ html {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    margin: 0 auto;
+
 }
 .header .container .logo{
     width: 60px;
